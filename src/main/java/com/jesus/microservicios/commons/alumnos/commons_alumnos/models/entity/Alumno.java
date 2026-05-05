@@ -24,6 +24,7 @@ public class Alumno {
     private String apellido;
     private String email;
 
+    @SuppressWarnings("deprecation")
     @Column(name = "create_at")
     @Temporal(TemporalType.TIMESTAMP)
     private Date createAt;
